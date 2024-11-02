@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Dashboard</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <button id="searchBtn">Search</button>
+    <button id="saveBtn">Save City</button>
+    <select id="unitSelect">
+      <option value="metric">Celsius</option>
+      <option value="imperial">Fahrenheit</option>
+    </select>
+    <div id="loading" class="hidden">Loading...</div>
+    <div id="weatherInfo"></div>
+    <div id="forecast"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

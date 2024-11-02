@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Advanced Weather Dashboard",
+    "version": "1.0",
+    "description": "Shows current weather information based on user's location or selected city.",
+    "permissions": [
+      "storage",
+      "geolocation"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    }
+  }
+  

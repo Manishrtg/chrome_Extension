@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Hello World Extension",
+    "version": "1.0",
+    "description": "A simple Chrome extension that says Hello World.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "1.png",
+        "48": "2.png",
+        "128": "2.png"
+      }
+    }
+  }
+  

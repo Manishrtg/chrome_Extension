@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "URL Logger",
+    "version": "1.0",
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+    "background": {
+        
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "2.png",
+        "48": "2.png",
+        "128": "2.png"
+      }
+    }
+  }
+  
